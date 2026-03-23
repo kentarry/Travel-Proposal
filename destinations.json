@@ -1,0 +1,346 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-03-21",
+  "destinations": [
+    {
+      "id": "tokyo",
+      "name": "日本東京",
+      "country": "日本",
+      "currency": "JPY",
+      "currencyName": "日圓",
+      "exchangeRates": { "TWD": 0.21, "CNY": 0.047, "HKD": 0.052, "USD": 0.0067 },
+      "visa": "台灣護照免簽90天；中國護照需辦簽證；港澳護照免簽90天",
+      "weather": [
+        { "months": "1-3月", "desc": "冬季 2-10°C，乾冷，需厚外套" },
+        { "months": "4-5月", "desc": "春季 12-22°C，櫻花季，薄外套即可" },
+        { "months": "6-8月", "desc": "夏季 25-35°C，6月梅雨、7-8月炎熱" },
+        { "months": "9-11月", "desc": "秋季 15-25°C，楓葉季，氣候宜人" }
+      ],
+      "tips": [
+        "地鐵是最方便的交通方式，建議購買 Suica/PASMO 卡",
+        "餐廳不收小費，也不需額外服務費",
+        "街上垃圾桶極少，垃圾需自行帶走",
+        "電壓100V，插座為雙平腳插頭（與台灣相同）",
+        "便利商店24小時營業，可解決大部分需求",
+        "搭手扶梯東京靠左站、大阪靠右站",
+        "多數商店可使用 IC 卡或信用卡支付"
+      ],
+      "attractions": [
+        { "name": "淺草寺＆仲見世通", "area": "淺草", "types": ["文化歷史"], "rating": 4.6, "price": "免費", "duration": "2小時", "desc": "東京最古老寺廟，雷門大燈籠為必拍地標，仲見世通有各式傳統小吃" },
+        { "name": "東京晴空塔", "area": "墨田區", "types": ["地標景觀"], "rating": 4.5, "price": "¥2,100-3,400", "duration": "1.5小時", "desc": "634公尺高塔，350m與450m兩層展望台，360度俯瞰東京" },
+        { "name": "明治神宮", "area": "原宿", "types": ["文化歷史", "自然風景"], "rating": 4.7, "price": "免費", "duration": "1.5小時", "desc": "鬧市中的森林神社，莊嚴寧靜，運氣好可遇見傳統婚禮" },
+        { "name": "新宿御苑", "area": "新宿", "types": ["自然風景"], "rating": 4.6, "price": "¥500", "duration": "2小時", "desc": "日式、英式、法式三合一庭園，春櫻秋楓皆絕美" },
+        { "name": "築地場外市場", "area": "築地", "types": ["美食探索"], "rating": 4.5, "price": "免費入場", "duration": "2小時", "desc": "海鮮美食天堂，超新鮮壽司、海鮮丼、玉子燒" },
+        { "name": "澀谷十字路口＆忠犬八公", "area": "澀谷", "types": ["地標景觀"], "rating": 4.4, "price": "免費", "duration": "1小時", "desc": "世界最繁忙路口，Shibuya Sky展望台可從高處俯瞰" },
+        { "name": "秋葉原電器街", "area": "秋葉原", "types": ["購物血拼"], "rating": 4.3, "price": "免費逛街", "duration": "3小時", "desc": "動漫聖地、電子產品、扭蛋天堂、女僕咖啡廳" },
+        { "name": "TeamLab Planets", "area": "豐洲", "types": ["藝術體驗", "攝影之旅"], "rating": 4.7, "price": "¥3,800", "duration": "2小時", "desc": "沉浸式數位藝術體驗，赤腳走入光影水中世界" },
+        { "name": "上野公園＆博物館群", "area": "上野", "types": ["文化歷史", "自然風景"], "rating": 4.5, "price": "公園免費", "duration": "3小時", "desc": "國立博物館、西洋美術館、動物園、不忍池集中地" },
+        { "name": "東京迪士尼度假區", "area": "舞浜", "types": ["親子同遊"], "rating": 4.7, "price": "¥7,900-9,400", "duration": "整天", "desc": "東京迪士尼樂園＆迪士尼海洋，各有特色的夢幻王國" },
+        { "name": "表參道＆竹下通", "area": "原宿", "types": ["購物血拼", "攝影之旅"], "rating": 4.4, "price": "免費逛街", "duration": "2.5小時", "desc": "國際精品大道與年輕潮流聖地，建築本身就是藝術品" },
+        { "name": "台場海濱公園", "area": "台場", "types": ["放鬆度假", "親子同遊"], "rating": 4.3, "price": "免費", "duration": "3小時", "desc": "海濱散步、大型購物中心、數位藝術博物館" },
+        { "name": "皇居外苑＆二重橋", "area": "千代田", "types": ["文化歷史"], "rating": 4.4, "price": "免費", "duration": "1.5小時", "desc": "天皇居所外圍，二重橋為經典拍照點" },
+        { "name": "六本木之丘展望台", "area": "六本木", "types": ["地標景觀", "攝影之旅"], "rating": 4.5, "price": "¥2,000", "duration": "1.5小時", "desc": "52樓開放式展望台，東京鐵塔近在眼前，夜景絕佳" },
+        { "name": "豐洲市場", "area": "豐洲", "types": ["美食探索"], "rating": 4.4, "price": "免費入場", "duration": "2小時", "desc": "取代築地的新市場，可參觀鮪魚拍賣，現場吃最新鮮海鮮" },
+        { "name": "下北澤", "area": "世田谷區", "types": ["購物血拼", "文化歷史"], "rating": 4.3, "price": "免費", "duration": "2.5小時", "desc": "文青聖地，古著店、獨立咖啡廳、小劇場集中區" }
+      ],
+      "restaurants": [
+        { "name": "壽司大（豐洲市場）", "type": "壽司", "dish": "主廚推薦套餐", "price": "¥4,000/人", "rating": 4.7, "area": "豐洲" },
+        { "name": "一蘭拉麵（澀谷）", "type": "拉麵", "dish": "天然豚骨拉麵", "price": "¥1,090/人", "rating": 4.4, "area": "澀谷" },
+        { "name": "AFURI 阿夫利", "type": "拉麵", "dish": "柚子鹽拉麵", "price": "¥1,130/人", "rating": 4.5, "area": "惠比壽" },
+        { "name": "牛かつもと村", "type": "炸牛排", "dish": "炸牛排定食", "price": "¥1,600/人", "rating": 4.5, "area": "新宿" },
+        { "name": "蔦 Tsuta", "type": "拉麵", "dish": "醬油蕎麥麵", "price": "¥1,200/人", "rating": 4.6, "area": "巢鴨" },
+        { "name": "叙々苑（新宿）", "type": "燒肉", "dish": "特選牛舌套餐", "price": "¥5,000/人", "rating": 4.5, "area": "新宿" },
+        { "name": "天丼てんや", "type": "天婦羅", "dish": "上天丼", "price": "¥800/人", "rating": 4.2, "area": "各區" },
+        { "name": "大戶屋", "type": "定食", "dish": "雞南蠻定食", "price": "¥900/人", "rating": 4.1, "area": "各區" },
+        { "name": "根室花まる（KITTE）", "type": "迴轉壽司", "dish": "時令握壽司", "price": "¥2,500/人", "rating": 4.5, "area": "丸之內" },
+        { "name": "鳥貴族", "type": "居酒屋", "dish": "全品均一價烤雞串", "price": "¥2,000/人", "rating": 4.2, "area": "各區" },
+        { "name": "bills 表參道", "type": "早午餐", "dish": "世界最佳鬆餅", "price": "¥1,800/人", "rating": 4.4, "area": "表參道" },
+        { "name": "松屋", "type": "牛丼", "dish": "牛めし（牛丼）", "price": "¥450/人", "rating": 3.9, "area": "各區" }
+      ],
+      "hotels": [
+        { "name": "東京新宿格拉斯麗酒店", "level": "中等", "price": "¥12,000-18,000/晚", "rating": 4.4, "area": "新宿", "highlight": "歌舞伎町旁，哥吉拉頭像是地標" },
+        { "name": "MIMARU 東京上野", "level": "經濟", "price": "¥8,000-12,000/晚", "rating": 4.3, "area": "上野", "highlight": "公寓式酒店，有廚房客廳，適合家庭" },
+        { "name": "東京安達仕酒店", "level": "豪華", "price": "¥45,000-70,000/晚", "rating": 4.7, "area": "虎之門", "highlight": "52樓起跳，設計感滿分，無敵景觀" },
+        { "name": "APA Hotel 新宿歌舞伎町", "level": "經濟", "price": "¥6,000-10,000/晚", "rating": 4.0, "area": "新宿", "highlight": "地點方便，日本最大連鎖商旅" },
+        { "name": "星野東京", "level": "豪華", "price": "¥55,000-90,000/晚", "rating": 4.8, "area": "大手町", "highlight": "日式奢華美學，溫泉＆日本庭園" }
+      ],
+      "budgets": {
+        "經濟": { "flight": "NT$8,000-15,000", "hotel": "¥6,000-10,000/晚", "food": "¥3,000/天", "transport": "¥1,500/天", "total": "約 NT$25,000-35,000" },
+        "中等": { "flight": "NT$12,000-20,000", "hotel": "¥12,000-20,000/晚", "food": "¥5,000/天", "transport": "¥2,000/天", "total": "約 NT$45,000-65,000" },
+        "豪華": { "flight": "NT$25,000-45,000", "hotel": "¥30,000-70,000/晚", "food": "¥10,000/天", "transport": "¥3,000/天", "total": "約 NT$80,000-150,000" }
+      }
+    },
+    {
+      "id": "osaka",
+      "name": "日本大阪",
+      "country": "日本",
+      "currency": "JPY",
+      "currencyName": "日圓",
+      "exchangeRates": { "TWD": 0.21, "CNY": 0.047, "HKD": 0.052, "USD": 0.0067 },
+      "visa": "台灣護照免簽90天",
+      "weather": [
+        { "months": "1-3月", "desc": "冬季 3-12°C，需保暖衣物" },
+        { "months": "4-5月", "desc": "春季 13-23°C，櫻花季" },
+        { "months": "6-8月", "desc": "夏季 26-35°C，濕熱" },
+        { "months": "9-11月", "desc": "秋季 15-25°C，楓葉季" }
+      ],
+      "tips": [
+        "大阪周遊卡非常划算，含免費景點和無限搭乘交通",
+        "大阪人熱情直爽，關西腔有趣",
+        "搭手扶梯靠右站（與東京相反）",
+        "道頓堀的霓虹燈和固力果跑步人看板是必拍",
+        "從大阪可一日遊京都、奈良、神戶"
+      ],
+      "attractions": [
+        { "name": "大阪城天守閣", "area": "中央區", "types": ["文化歷史"], "rating": 4.5, "price": "¥600", "duration": "2小時", "desc": "豐臣秀吉建造的名城，大阪精神象徵" },
+        { "name": "道頓堀＆心齋橋", "area": "難波", "types": ["美食探索", "購物血拼"], "rating": 4.6, "price": "免費", "duration": "3小時", "desc": "大阪美食地標，固力果跑步人、蟹道樂螃蟹招牌" },
+        { "name": "環球影城 USJ", "area": "此花區", "types": ["親子同遊", "冒險運動"], "rating": 4.7, "price": "¥8,600", "duration": "整天", "desc": "哈利波特魔法世界、超級任天堂世界" },
+        { "name": "通天閣＆新世界", "area": "浪速區", "types": ["文化歷史", "美食探索"], "rating": 4.3, "price": "¥900", "duration": "2小時", "desc": "懷舊下町風情，串炸發源地" },
+        { "name": "黑門市場", "area": "日本橋", "types": ["美食探索"], "rating": 4.4, "price": "免費入場", "duration": "2小時", "desc": "大阪的廚房，新鮮海鮮現買現吃" },
+        { "name": "天保山海遊館", "area": "港區", "types": ["親子同遊"], "rating": 4.5, "price": "¥2,700", "duration": "3小時", "desc": "世界級水族館，鯨鯊展區超震撼" },
+        { "name": "梅田空中庭園展望台", "area": "北區", "types": ["地標景觀", "攝影之旅"], "rating": 4.5, "price": "¥1,500", "duration": "1.5小時", "desc": "173公尺高空中花園，夜景超美" },
+        { "name": "奈良公園（一日遊）", "area": "奈良", "types": ["自然風景", "文化歷史"], "rating": 4.7, "price": "免費", "duration": "半天", "desc": "與可愛鹿群互動，東大寺世界遺產" },
+        { "name": "伏見稻荷大社（一日遊）", "area": "京都", "types": ["文化歷史", "攝影之旅"], "rating": 4.7, "price": "免費", "duration": "半天", "desc": "千本鳥居絕景，日本最受歡迎神社" }
+      ],
+      "restaurants": [
+        { "name": "たこ焼きわなか", "type": "章魚燒", "dish": "元祖章魚燒", "price": "¥600/人", "rating": 4.5, "area": "難波" },
+        { "name": "551蓬萊", "type": "肉包", "dish": "豚饅（肉包）", "price": "¥400/人", "rating": 4.6, "area": "難波" },
+        { "name": "元祖串かつだるま", "type": "串炸", "dish": "串炸套餐", "price": "¥2,000/人", "rating": 4.4, "area": "新世界" },
+        { "name": "千房 道頓堀本店", "type": "大阪燒", "dish": "道頓堀燒", "price": "¥1,400/人", "rating": 4.3, "area": "道頓堀" },
+        { "name": "蟹道樂 本店", "type": "螃蟹料理", "dish": "蟹懷石料理", "price": "¥6,000/人", "rating": 4.5, "area": "道頓堀" },
+        { "name": "自由軒", "type": "洋食", "dish": "名物咖哩飯", "price": "¥800/人", "rating": 4.2, "area": "難波" },
+        { "name": "はり重 咖哩", "type": "咖哩", "dish": "黑毛和牛咖哩", "price": "¥1,800/人", "rating": 4.4, "area": "道頓堀" },
+        { "name": "一芳亭", "type": "燒賣", "dish": "蒸燒賣定食", "price": "¥700/人", "rating": 4.3, "area": "難波" }
+      ],
+      "hotels": [
+        { "name": "大阪十字酒店", "level": "中等", "price": "¥10,000-16,000/晚", "rating": 4.5, "area": "心齋橋", "highlight": "設計感酒店，心齋橋步行2分鐘" },
+        { "name": "Fresa Inn 難波", "level": "經濟", "price": "¥6,000-9,000/晚", "rating": 4.2, "area": "難波", "highlight": "車站上蓋，CP值超高" },
+        { "name": "大阪瑞吉酒店", "level": "豪華", "price": "¥50,000-80,000/晚", "rating": 4.8, "area": "本町", "highlight": "頂級奢華，城市天際線景觀" }
+      ],
+      "budgets": {
+        "經濟": { "flight": "NT$7,000-14,000", "hotel": "¥5,000-9,000/晚", "food": "¥2,500/天", "transport": "¥1,200/天", "total": "約 NT$22,000-32,000" },
+        "中等": { "flight": "NT$10,000-18,000", "hotel": "¥10,000-18,000/晚", "food": "¥4,500/天", "transport": "¥1,800/天", "total": "約 NT$40,000-60,000" },
+        "豪華": { "flight": "NT$22,000-40,000", "hotel": "¥30,000-80,000/晚", "food": "¥8,000/天", "transport": "¥3,000/天", "total": "約 NT$75,000-140,000" }
+      }
+    },
+    {
+      "id": "bangkok",
+      "name": "泰國曼谷",
+      "country": "泰國",
+      "currency": "THB",
+      "currencyName": "泰銖",
+      "exchangeRates": { "TWD": 0.92, "CNY": 0.21, "HKD": 0.23, "USD": 0.029 },
+      "visa": "台灣護照免簽30天",
+      "weather": [
+        { "months": "1-2月", "desc": "涼季 20-32°C，最佳旅遊時節" },
+        { "months": "3-5月", "desc": "熱季 28-40°C，非常炎熱" },
+        { "months": "6-10月", "desc": "雨季 25-33°C，午後雷陣雨" },
+        { "months": "11-12月", "desc": "涼季 20-32°C，舒適宜人" }
+      ],
+      "tips": [
+        "搭嘟嘟車和計程車前務必先議價",
+        "進入寺廟需穿著得體，不可露肩和膝蓋",
+        "不要摸泰國人的頭，這是嚴重的禁忌",
+        "路邊攤美食是泰國精髓，但注意飲用水衛生",
+        "BTS空鐵和MRT地鐵是避開塞車的最佳選擇",
+        "7-11 超方便，可買到各種生活用品和小吃"
+      ],
+      "attractions": [
+        { "name": "大皇宮＆玉佛寺", "area": "老城區", "types": ["文化歷史"], "rating": 4.6, "price": "฿500", "duration": "3小時", "desc": "泰國最神聖的寺廟群，金碧輝煌建築群" },
+        { "name": "鄭王廟（黎明寺）", "area": "吞武里", "types": ["文化歷史", "攝影之旅"], "rating": 4.6, "price": "฿100", "duration": "1.5小時", "desc": "湄南河畔最美寺廟，日落景色絕美" },
+        { "name": "恰圖恰週末市場", "area": "恰圖恰", "types": ["購物血拼"], "rating": 4.4, "price": "免費", "duration": "4小時", "desc": "全球最大週末市場，超過15,000個攤位" },
+        { "name": "臥佛寺", "area": "老城區", "types": ["文化歷史"], "rating": 4.7, "price": "฿300", "duration": "1.5小時", "desc": "46公尺金色臥佛，正宗泰式按摩發源地" },
+        { "name": "ICONSIAM 購物中心", "area": "河畔", "types": ["購物血拼"], "rating": 4.6, "price": "免費", "duration": "3小時", "desc": "曼谷最豪華商場，室內水上市場超獨特" },
+        { "name": "考山路", "area": "老城區", "types": ["美食探索"], "rating": 4.2, "price": "免費", "duration": "晚上", "desc": "背包客天堂，夜市小吃酒吧一條街" },
+        { "name": "四面佛", "area": "水門", "types": ["文化歷史"], "rating": 4.4, "price": "免費", "duration": "30分鐘", "desc": "靈驗的人氣神像，24小時都有信眾" },
+        { "name": "美功鐵道市場（一日遊）", "area": "夜功府", "types": ["文化歷史", "攝影之旅"], "rating": 4.5, "price": "約 ฿1,500含車", "duration": "半天", "desc": "火車穿越市場的驚奇畫面" },
+        { "name": "丹嫩莎朵水上市場", "area": "叻丕府", "types": ["文化歷史", "攝影之旅"], "rating": 4.3, "price": "約 ฿1,500含車", "duration": "半天", "desc": "經典水上市場體驗，搭船逛市場" },
+        { "name": "Asiatique 河濱夜市", "area": "河畔", "types": ["購物血拼", "美食探索"], "rating": 4.3, "price": "免費", "duration": "3小時", "desc": "結合購物餐飲娛樂的河畔夜市" }
+      ],
+      "restaurants": [
+        { "name": "Jay Fai", "type": "街頭美食", "dish": "蟹肉蛋捲", "price": "฿1,000/人", "rating": 4.5, "area": "老城區" },
+        { "name": "Thipsamai", "type": "泰式炒麵", "dish": "招牌 Pad Thai", "price": "฿250/人", "rating": 4.5, "area": "老城區" },
+        { "name": "Som Tam Nua", "type": "泰式料理", "dish": "青木瓜沙拉＆炸雞翅", "price": "฿300/人", "rating": 4.4, "area": "暹羅" },
+        { "name": "Somboon Seafood", "type": "海鮮", "dish": "咖哩螃蟹", "price": "฿800/人", "rating": 4.4, "area": "是隆" },
+        { "name": "After You", "type": "甜點", "dish": "蜜糖吐司", "price": "฿250/人", "rating": 4.3, "area": "各大商場" },
+        { "name": "Nai Erawan", "type": "船麵", "dish": "泰式船麵", "price": "฿60/碗", "rating": 4.3, "area": "勝利紀念碑" },
+        { "name": "Raan Jay Fai（米其林）", "type": "泰式熱炒", "dish": "醉蟹麵", "price": "฿800/人", "rating": 4.6, "area": "老城區" },
+        { "name": "拉差達火車夜市", "type": "夜市", "dish": "各式小吃", "price": "฿200/人", "rating": 4.3, "area": "拉差達" }
+      ],
+      "hotels": [
+        { "name": "Ibis Bangkok Siam", "level": "經濟", "price": "฿1,200-2,000/晚", "rating": 4.1, "area": "暹羅", "highlight": "BTS暹羅站旁，購物超方便" },
+        { "name": "Hua Chang Heritage Hotel", "level": "中等", "price": "฿3,000-5,000/晚", "rating": 4.5, "area": "暹羅", "highlight": "泰式風情精品酒店" },
+        { "name": "文華東方酒店", "level": "豪華", "price": "฿15,000-30,000/晚", "rating": 4.8, "area": "河畔", "highlight": "世界傳奇酒店，河景絕美" }
+      ],
+      "budgets": {
+        "經濟": { "flight": "NT$5,000-10,000", "hotel": "฿800-1,500/晚", "food": "฿500/天", "transport": "฿300/天", "total": "約 NT$15,000-22,000" },
+        "中等": { "flight": "NT$8,000-15,000", "hotel": "฿2,500-5,000/晚", "food": "฿1,000/天", "transport": "฿500/天", "total": "約 NT$28,000-45,000" },
+        "豪華": { "flight": "NT$18,000-35,000", "hotel": "฿8,000-30,000/晚", "food": "฿3,000/天", "transport": "฿1,000/天", "total": "約 NT$60,000-120,000" }
+      }
+    },
+    {
+      "id": "seoul",
+      "name": "韓國首爾",
+      "country": "韓國",
+      "currency": "KRW",
+      "currencyName": "韓元",
+      "exchangeRates": { "TWD": 0.023, "CNY": 0.0052, "HKD": 0.0057, "USD": 0.00073 },
+      "visa": "台灣護照 K-ETA 免簽90天",
+      "weather": [
+        { "months": "1-3月", "desc": "冬季 -6~8°C，需羽絨外套" },
+        { "months": "4-5月", "desc": "春季 10-22°C，櫻花粉嫩" },
+        { "months": "6-8月", "desc": "夏季 23-33°C，梅雨悶熱" },
+        { "months": "9-11月", "desc": "秋季 10-25°C，楓葉銀杏超美" }
+      ],
+      "tips": [
+        "T-money 卡搭地鐵巴士很方便，便利商店可購買",
+        "韓國插座為圓形雙孔220V，務必帶轉接頭",
+        "很多韓式餐廳不提供單人份，建議2人以上同行",
+        "冬天室內暖氣很強，建議洋蔥式穿法",
+        "Kakao Map 比 Google Maps 在韓國更好用",
+        "便利商店的三角飯糰和便當CP值超高"
+      ],
+      "attractions": [
+        { "name": "景福宮＆韓服體驗", "area": "鍾路", "types": ["文化歷史"], "rating": 4.6, "price": "₩3,000（穿韓服免費）", "duration": "2.5小時", "desc": "朝鮮王朝正宮，穿韓服拍照免門票" },
+        { "name": "北村韓屋村", "area": "鍾路", "types": ["文化歷史", "攝影之旅"], "rating": 4.4, "price": "免費", "duration": "1.5小時", "desc": "600年歷史傳統韓屋巷弄，拍照聖地" },
+        { "name": "明洞商圈", "area": "中區", "types": ["購物血拼", "美食探索"], "rating": 4.3, "price": "免費逛街", "duration": "3小時", "desc": "韓國美妝天堂，各大品牌旗艦店" },
+        { "name": "南山首爾塔", "area": "南山", "types": ["地標景觀", "攝影之旅"], "rating": 4.5, "price": "₩16,000", "duration": "2小時", "desc": "首爾地標，情侶鎖牆＆360度夜景" },
+        { "name": "弘大自由市場", "area": "弘大", "types": ["購物血拼", "藝術體驗"], "rating": 4.4, "price": "免費", "duration": "3小時", "desc": "年輕文化中心，獨立品牌＆街頭表演" },
+        { "name": "廣藏市場", "area": "鍾路", "types": ["美食探索"], "rating": 4.5, "price": "免費入場", "duration": "2小時", "desc": "百年市場，生拌牛肉、綠豆煎餅必吃" },
+        { "name": "樂天世界", "area": "蠶室", "types": ["親子同遊"], "rating": 4.3, "price": "₩62,000", "duration": "整天", "desc": "世界最大室內主題樂園" },
+        { "name": "梨泰院", "area": "龍山", "types": ["美食探索", "購物血拼"], "rating": 4.3, "price": "免費", "duration": "3小時", "desc": "異國風情街區，特色咖啡廳和餐廳" },
+        { "name": "昌德宮＆秘苑", "area": "鍾路", "types": ["文化歷史", "自然風景"], "rating": 4.6, "price": "₩3,000", "duration": "2小時", "desc": "UNESCO世界遺產，後花園絕美" },
+        { "name": "汝矣島漢江公園", "area": "永登浦", "types": ["放鬆度假", "自然風景"], "rating": 4.4, "price": "免費", "duration": "2小時", "desc": "野餐看夜景，配炸雞啤酒超韓式" }
+      ],
+      "restaurants": [
+        { "name": "土俗村蔘雞湯", "type": "蔘雞湯", "dish": "招牌蔘雞湯", "price": "₩18,000/人", "rating": 4.5, "area": "景福宮" },
+        { "name": "姜虎東白丁烤肉", "type": "烤肉", "dish": "生五花肉套餐", "price": "₩16,000/人", "rating": 4.4, "area": "各區" },
+        { "name": "廣藏市場麻藥紫菜飯捲", "type": "小吃", "dish": "麻藥紫菜飯捲", "price": "₩4,000/人", "rating": 4.3, "area": "鍾路" },
+        { "name": "陳玉華一隻雞", "type": "燉雞", "dish": "一隻雞湯", "price": "₩28,000/鍋", "rating": 4.5, "area": "東大門" },
+        { "name": "Isaac Toast", "type": "早餐", "dish": "經典吐司", "price": "₩3,500/人", "rating": 4.2, "area": "各區" },
+        { "name": "百濟蔘雞湯", "type": "蔘雞湯", "dish": "烏骨雞蔘雞湯", "price": "₩20,000/人", "rating": 4.4, "area": "明洞" },
+        { "name": "橋村炸雞", "type": "炸雞", "dish": "蜂蜜炸雞", "price": "₩18,000/份", "rating": 4.4, "area": "各區" },
+        { "name": "明洞餃子", "type": "刀削麵", "dish": "招牌刀削麵＆餃子", "price": "₩10,000/人", "rating": 4.3, "area": "明洞" }
+      ],
+      "hotels": [
+        { "name": "明洞 Loisir Hotel", "level": "中等", "price": "₩120,000-180,000/晚", "rating": 4.3, "area": "明洞", "highlight": "地鐵站步行3分鐘" },
+        { "name": "K-Grand Hostel 東大門", "level": "經濟", "price": "₩40,000-70,000/晚", "rating": 4.1, "area": "東大門", "highlight": "乾淨舒適，24小時東大門旁" },
+        { "name": "首爾四季酒店", "level": "豪華", "price": "₩500,000-900,000/晚", "rating": 4.8, "area": "光化門", "highlight": "頂級奢華，景福宮無敵景觀" }
+      ],
+      "budgets": {
+        "經濟": { "flight": "NT$6,000-12,000", "hotel": "₩40,000-80,000/晚", "food": "₩25,000/天", "transport": "₩8,000/天", "total": "約 NT$20,000-30,000" },
+        "中等": { "flight": "NT$10,000-18,000", "hotel": "₩100,000-200,000/晚", "food": "₩50,000/天", "transport": "₩15,000/天", "total": "約 NT$38,000-60,000" },
+        "豪華": { "flight": "NT$20,000-40,000", "hotel": "₩300,000-900,000/晚", "food": "₩100,000/天", "transport": "₩30,000/天", "total": "約 NT$70,000-150,000" }
+      }
+    },
+    {
+      "id": "singapore",
+      "name": "新加坡",
+      "country": "新加坡",
+      "currency": "SGD",
+      "currencyName": "新加坡幣",
+      "exchangeRates": { "TWD": 24.1, "CNY": 5.4, "HKD": 5.8, "USD": 0.74 },
+      "visa": "台灣護照免簽30天",
+      "weather": [
+        { "months": "全年", "desc": "熱帶氣候 25-33°C，午後常有雷陣雨，需帶傘" }
+      ],
+      "tips": [
+        "MRT地鐵非常便利，買 EZ-Link 卡最划算",
+        "室內冷氣極強，建議隨身帶薄外套",
+        "口香糖在新加坡是禁止攜帶入境的",
+        "小販中心（Hawker Centre）是體驗平價美食的最佳去處",
+        "公共場所嚴禁吸菸，罰款很重",
+        "自來水可直接飲用"
+      ],
+      "attractions": [
+        { "name": "濱海灣金沙＆空中花園", "area": "濱海灣", "types": ["地標景觀"], "rating": 4.6, "price": "S$26", "duration": "2小時", "desc": "新加坡地標，無邊際泳池（住客限定）、空中花園對所有人開放" },
+        { "name": "Gardens by the Bay", "area": "濱海灣", "types": ["自然風景", "攝影之旅"], "rating": 4.7, "price": "S$32", "duration": "3小時", "desc": "超級樹燈光秀免費，Cloud Forest 和 Flower Dome 需門票" },
+        { "name": "聖淘沙島", "area": "聖淘沙", "types": ["親子同遊", "放鬆度假"], "rating": 4.5, "price": "依設施", "duration": "整天", "desc": "環球影城、水族館、海灘集中的度假島" },
+        { "name": "牛車水（中國城）", "area": "牛車水", "types": ["文化歷史", "美食探索"], "rating": 4.3, "price": "免費", "duration": "2小時", "desc": "歷史街區，美食小販中心、佛牙寺" },
+        { "name": "小印度＆甘榜格南", "area": "小印度", "types": ["文化歷史", "攝影之旅"], "rating": 4.3, "price": "免費", "duration": "2小時", "desc": "多元文化探索，彩色建築和印度美食" },
+        { "name": "烏節路購物街", "area": "烏節路", "types": ["購物血拼"], "rating": 4.4, "price": "免費逛街", "duration": "3小時", "desc": "新加坡的香榭大道，各大百貨集中" },
+        { "name": "魚尾獅公園", "area": "濱海灣", "types": ["地標景觀"], "rating": 4.3, "price": "免費", "duration": "30分鐘", "desc": "新加坡象徵，必拍到此一遊照" },
+        { "name": "新加坡動物園＆夜間動物園", "area": "萬禮", "types": ["親子同遊", "自然風景"], "rating": 4.6, "price": "S$48-55", "duration": "4小時", "desc": "開放式設計動物園，夜間Safari體驗獨特" }
+      ],
+      "restaurants": [
+        { "name": "天天海南雞飯", "type": "雞飯", "dish": "海南雞飯", "price": "S$6/人", "rating": 4.5, "area": "麥士威" },
+        { "name": "松發肉骨茶", "type": "肉骨茶", "dish": "招牌肉骨茶", "price": "S$10/人", "rating": 4.4, "area": "克拉碼頭" },
+        { "name": "328加東叻沙", "type": "叻沙", "dish": "加東叻沙", "price": "S$8/人", "rating": 4.4, "area": "加東" },
+        { "name": "珍寶海鮮", "type": "海鮮", "dish": "辣椒螃蟹", "price": "S$60/人", "rating": 4.4, "area": "克拉碼頭" },
+        { "name": "亞坤咖椰吐司", "type": "早餐", "dish": "咖椰吐司套餐", "price": "S$6/人", "rating": 4.3, "area": "各區" },
+        { "name": "了凡油雞飯麵", "type": "油雞", "dish": "招牌油雞飯（米其林）", "price": "S$5/人", "rating": 4.5, "area": "牛車水" },
+        { "name": "Old Satay Club", "type": "沙嗲", "dish": "綜合沙嗲", "price": "S$15/人", "rating": 4.2, "area": "老巴剎" }
+      ],
+      "hotels": [
+        { "name": "Hotel G Singapore", "level": "經濟", "price": "S$120-180/晚", "rating": 4.2, "area": "武吉士", "highlight": "設計旅店，MRT步行5分鐘" },
+        { "name": "Andaz Singapore", "level": "中等", "price": "S$280-400/晚", "rating": 4.6, "area": "武吉士", "highlight": "凱悅旗下潮牌，39樓無邊際泳池" },
+        { "name": "濱海灣金沙酒店", "level": "豪華", "price": "S$600-1,200/晚", "rating": 4.6, "area": "濱海灣", "highlight": "世界最高無邊際泳池，新加坡地標" }
+      ],
+      "budgets": {
+        "經濟": { "flight": "NT$6,000-12,000", "hotel": "S$80-150/晚", "food": "S$30/天", "transport": "S$10/天", "total": "約 NT$18,000-28,000" },
+        "中等": { "flight": "NT$10,000-18,000", "hotel": "S$200-400/晚", "food": "S$60/天", "transport": "S$20/天", "total": "約 NT$40,000-65,000" },
+        "豪華": { "flight": "NT$20,000-40,000", "hotel": "S$500-1,200/晚", "food": "S$150/天", "transport": "S$50/天", "total": "約 NT$80,000-180,000" }
+      }
+    },
+    {
+      "id": "vietnam-hanoi",
+      "name": "越南河內",
+      "country": "越南",
+      "currency": "VND",
+      "currencyName": "越南盾",
+      "exchangeRates": { "TWD": 0.00125, "CNY": 0.00028, "HKD": 0.00031, "USD": 0.00004 },
+      "visa": "台灣護照免簽45天",
+      "weather": [
+        { "months": "1-3月", "desc": "冬春 15-22°C，陰冷潮濕" },
+        { "months": "4-5月", "desc": "春末 22-30°C，舒適宜人" },
+        { "months": "6-9月", "desc": "夏季 28-36°C，炎熱多雨" },
+        { "months": "10-12月", "desc": "秋冬 18-28°C，最佳季節" }
+      ],
+      "tips": [
+        "過馬路是一門藝術 — 保持穩定步速讓車流繞過你",
+        "Grab 叫車APP是最方便的交通工具",
+        "講價是文化的一部分，市場購物記得殺價",
+        "街頭河粉和咖啡是河內的靈魂",
+        "帶足現金，許多小攤不收信用卡"
+      ],
+      "attractions": [
+        { "name": "還劍湖＆玉山祠", "area": "還劍區", "types": ["文化歷史", "自然風景"], "rating": 4.5, "price": "₫30,000", "duration": "1.5小時", "desc": "河內地標湖泊，紅色棲旭橋通往湖心小島" },
+        { "name": "河內三十六古街", "area": "還劍區", "types": ["文化歷史", "購物血拼", "美食探索"], "rating": 4.4, "price": "免費", "duration": "3小時", "desc": "千年歷史的老城區，每條街以一種商品命名" },
+        { "name": "胡志明紀念堂", "area": "巴亭區", "types": ["文化歷史"], "rating": 4.3, "price": "免費", "duration": "1.5小時", "desc": "越南國父長眠之處，莊嚴肅穆" },
+        { "name": "文廟（國子監）", "area": "東多區", "types": ["文化歷史"], "rating": 4.5, "price": "₫30,000", "duration": "1.5小時", "desc": "越南第一所大學，千年儒學聖地" },
+        { "name": "河內歌劇院", "area": "還劍區", "types": ["文化歷史", "藝術體驗"], "rating": 4.4, "price": "依表演", "duration": "2小時", "desc": "法式殖民建築傑作，夜間燈光美麗" },
+        { "name": "西湖", "area": "西湖區", "types": ["自然風景", "放鬆度假"], "rating": 4.3, "price": "免費", "duration": "2小時", "desc": "河內最大湖泊，環湖散步咖啡廳林立" },
+        { "name": "下龍灣（一日遊）", "area": "廣寧省", "types": ["自然風景", "冒險運動"], "rating": 4.7, "price": "約 US$80-150", "duration": "整天", "desc": "UNESCO世界遺產，千座石灰岩島嶼奇景" },
+        { "name": "水上木偶戲", "area": "還劍區", "types": ["文化歷史", "藝術體驗"], "rating": 4.3, "price": "₫100,000", "duration": "1小時", "desc": "越南獨有的傳統表演藝術" }
+      ],
+      "restaurants": [
+        { "name": "Phở Thìn Bờ Hồ", "type": "河粉", "dish": "牛肉河粉", "price": "₫50,000/人", "rating": 4.5, "area": "還劍區" },
+        { "name": "Bún Chả Hương Liên", "type": "烤肉米線", "dish": "歐巴馬套餐（烤肉米線）", "price": "₫60,000/人", "rating": 4.4, "area": "東多區" },
+        { "name": "Egg Coffee Giang", "type": "咖啡", "dish": "蛋咖啡", "price": "₫35,000/人", "rating": 4.5, "area": "還劍區" },
+        { "name": "Bánh Mì 25", "type": "法國麵包", "dish": "越式法國麵包", "price": "₫25,000/人", "rating": 4.4, "area": "還劍區" },
+        { "name": "Chả Cá Thăng Long", "type": "煎魚", "dish": "河內煎魚（Chả Cá）", "price": "₫150,000/人", "rating": 4.3, "area": "還劍區" },
+        { "name": "Phở Gia Truyền", "type": "河粉", "dish": "傳統牛肉河粉", "price": "₫40,000/人", "rating": 4.4, "area": "還劍區" }
+      ],
+      "hotels": [
+        { "name": "Hanoi La Siesta Classic", "level": "中等", "price": "US$60-100/晚", "rating": 4.7, "area": "古街區", "highlight": "精品酒店，服務一流" },
+        { "name": "Hanoi Rocks Hostel", "level": "經濟", "price": "US$15-35/晚", "rating": 4.3, "area": "古街區", "highlight": "背包客首選，位置絕佳" },
+        { "name": "Sofitel Legend Metropole", "level": "豪華", "price": "US$250-500/晚", "rating": 4.8, "area": "還劍區", "highlight": "百年傳奇酒店，法式殖民風華" }
+      ],
+      "budgets": {
+        "經濟": { "flight": "NT$5,000-10,000", "hotel": "US$15-35/晚", "food": "₫200,000/天", "transport": "₫100,000/天", "total": "約 NT$12,000-18,000" },
+        "中等": { "flight": "NT$8,000-15,000", "hotel": "US$60-100/晚", "food": "₫500,000/天", "transport": "₫200,000/天", "total": "約 NT$25,000-40,000" },
+        "豪華": { "flight": "NT$15,000-30,000", "hotel": "US$200-500/晚", "food": "₫1,500,000/天", "transport": "₫500,000/天", "total": "約 NT$55,000-120,000" }
+      }
+    }
+  ],
+  "packingList": {
+    "證件文件": ["護照（效期6個月以上）", "電子機票", "旅遊保險單", "住宿訂房確認", "護照影本（與正本分開放）", "大頭照2張備用", "信用卡＆提款卡"],
+    "衣物鞋帽": ["換洗衣物（天數+1套）", "舒適步行鞋", "薄外套/防風外套", "遮陽帽", "輕便拖鞋"],
+    "電子用品": ["手機＆充電器", "行動電源（需隨身不可託運）", "萬用轉接插頭", "耳機"],
+    "日用品": ["盥洗用品旅行組", "防曬乳", "面紙/濕紙巾", "環保購物袋", "雨傘/輕便雨衣"],
+    "藥品": ["個人常備藥", "腸胃藥", "暈車藥", "OK繃", "防蚊液"]
+  },
+  "originOptions": ["台灣", "中國", "香港"],
+  "currencyMap": { "台灣": "TWD", "中國": "CNY", "香港": "HKD" },
+  "styleOptions": ["文化歷史", "自然風景", "美食探索", "購物血拼", "冒險運動", "放鬆度假", "親子同遊", "攝影之旅", "藝術體驗", "地標景觀"]
+}
